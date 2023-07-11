@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229AA4FA2A5C45330013BDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AA4F92A5C45330013BDB2 /* AppDelegate.swift */; };
+		229AA4FC2A5C45330013BDB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AA4FB2A5C45330013BDB2 /* SceneDelegate.swift */; };
+		229AA4FE2A5C45330013BDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AA4FD2A5C45330013BDB2 /* ViewController.swift */; };
+		229AA5012A5C45330013BDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229AA4FF2A5C45330013BDB2 /* Main.storyboard */; };
+		229AA5032A5C45340013BDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229AA5022A5C45340013BDB2 /* Assets.xcassets */; };
+		229AA5062A5C45340013BDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229AA5042A5C45340013BDB2 /* LaunchScreen.storyboard */; };
+		229AA5112A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AA5102A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalTests.swift */; };
+		229AA51B2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AA51A2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITests.swift */; };
+		229AA51D2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AA51C2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229AA50D2A5C45340013BDB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229AA4EE2A5C45320013BDB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229AA4F52A5C45330013BDB2;
+			remoteInfo = "Soporte-GitHub-HelloWorld-Rosaliaboal";
+		};
+		229AA5172A5C45340013BDB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229AA4EE2A5C45320013BDB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229AA4F52A5C45330013BDB2;
+			remoteInfo = "Soporte-GitHub-HelloWorld-Rosaliaboal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229AA4F62A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soporte-GitHub-HelloWorld-Rosaliaboal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229AA4F92A5C45330013BDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		229AA4FB2A5C45330013BDB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		229AA4FD2A5C45330013BDB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		229AA5002A5C45330013BDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229AA5022A5C45340013BDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229AA5052A5C45340013BDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229AA5072A5C45340013BDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229AA50C2A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soporte-GitHub-HelloWorld-RosaliaboalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229AA5102A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soporte_GitHub_HelloWorld_RosaliaboalTests.swift; sourceTree = "<group>"; };
+		229AA5162A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soporte-GitHub-HelloWorld-RosaliaboalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229AA51A2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soporte_GitHub_HelloWorld_RosaliaboalUITests.swift; sourceTree = "<group>"; };
+		229AA51C2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soporte_GitHub_HelloWorld_RosaliaboalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229AA4F32A5C45330013BDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229AA5092A5C45340013BDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229AA5132A5C45340013BDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229AA4ED2A5C45320013BDB2 = {
+			isa = PBXGroup;
+			children = (
+				229AA4F82A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal */,
+				229AA50F2A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalTests */,
+				229AA5192A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalUITests */,
+				229AA4F72A5C45330013BDB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229AA4F72A5C45330013BDB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229AA4F62A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal.app */,
+				229AA50C2A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalTests.xctest */,
+				229AA5162A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229AA4F82A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal */ = {
+			isa = PBXGroup;
+			children = (
+				229AA4F92A5C45330013BDB2 /* AppDelegate.swift */,
+				229AA4FB2A5C45330013BDB2 /* SceneDelegate.swift */,
+				229AA4FD2A5C45330013BDB2 /* ViewController.swift */,
+				229AA4FF2A5C45330013BDB2 /* Main.storyboard */,
+				229AA5022A5C45340013BDB2 /* Assets.xcassets */,
+				229AA5042A5C45340013BDB2 /* LaunchScreen.storyboard */,
+				229AA5072A5C45340013BDB2 /* Info.plist */,
+			);
+			path = "Soporte-GitHub-HelloWorld-Rosaliaboal";
+			sourceTree = "<group>";
+		};
+		229AA50F2A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalTests */ = {
+			isa = PBXGroup;
+			children = (
+				229AA5102A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalTests.swift */,
+			);
+			path = "Soporte-GitHub-HelloWorld-RosaliaboalTests";
+			sourceTree = "<group>";
+		};
+		229AA5192A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				229AA51A2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITests.swift */,
+				229AA51C2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITestsLaunchTests.swift */,
+			);
+			path = "Soporte-GitHub-HelloWorld-RosaliaboalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229AA4F52A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229AA5202A5C45340013BDB2 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-Rosaliaboal" */;
+			buildPhases = (
+				229AA4F22A5C45330013BDB2 /* Sources */,
+				229AA4F32A5C45330013BDB2 /* Frameworks */,
+				229AA4F42A5C45330013BDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soporte-GitHub-HelloWorld-Rosaliaboal";
+			productName = "Soporte-GitHub-HelloWorld-Rosaliaboal";
+			productReference = 229AA4F62A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229AA50B2A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229AA5232A5C45340013BDB2 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-RosaliaboalTests" */;
+			buildPhases = (
+				229AA5082A5C45340013BDB2 /* Sources */,
+				229AA5092A5C45340013BDB2 /* Frameworks */,
+				229AA50A2A5C45340013BDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229AA50E2A5C45340013BDB2 /* PBXTargetDependency */,
+			);
+			name = "Soporte-GitHub-HelloWorld-RosaliaboalTests";
+			productName = "Soporte-GitHub-HelloWorld-RosaliaboalTests";
+			productReference = 229AA50C2A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229AA5152A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229AA5262A5C45340013BDB2 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-RosaliaboalUITests" */;
+			buildPhases = (
+				229AA5122A5C45340013BDB2 /* Sources */,
+				229AA5132A5C45340013BDB2 /* Frameworks */,
+				229AA5142A5C45340013BDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229AA5182A5C45340013BDB2 /* PBXTargetDependency */,
+			);
+			name = "Soporte-GitHub-HelloWorld-RosaliaboalUITests";
+			productName = "Soporte-GitHub-HelloWorld-RosaliaboalUITests";
+			productReference = 229AA5162A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229AA4EE2A5C45320013BDB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					229AA4F52A5C45330013BDB2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					229AA50B2A5C45340013BDB2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 229AA4F52A5C45330013BDB2;
+					};
+					229AA5152A5C45340013BDB2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 229AA4F52A5C45330013BDB2;
+					};
+				};
+			};
+			buildConfigurationList = 229AA4F12A5C45320013BDB2 /* Build configuration list for PBXProject "Soporte-GitHub-HelloWorld-Rosaliaboal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229AA4ED2A5C45320013BDB2;
+			productRefGroup = 229AA4F72A5C45330013BDB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229AA4F52A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal */,
+				229AA50B2A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalTests */,
+				229AA5152A5C45340013BDB2 /* Soporte-GitHub-HelloWorld-RosaliaboalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229AA4F42A5C45330013BDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229AA5062A5C45340013BDB2 /* LaunchScreen.storyboard in Resources */,
+				229AA5032A5C45340013BDB2 /* Assets.xcassets in Resources */,
+				229AA5012A5C45330013BDB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229AA50A2A5C45340013BDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229AA5142A5C45340013BDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229AA4F22A5C45330013BDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229AA4FE2A5C45330013BDB2 /* ViewController.swift in Sources */,
+				229AA4FA2A5C45330013BDB2 /* AppDelegate.swift in Sources */,
+				229AA4FC2A5C45330013BDB2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229AA5082A5C45340013BDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229AA5112A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229AA5122A5C45340013BDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229AA51D2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITestsLaunchTests.swift in Sources */,
+				229AA51B2A5C45340013BDB2 /* Soporte_GitHub_HelloWorld_RosaliaboalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229AA50E2A5C45340013BDB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229AA4F52A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal */;
+			targetProxy = 229AA50D2A5C45340013BDB2 /* PBXContainerItemProxy */;
+		};
+		229AA5182A5C45340013BDB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229AA4F52A5C45330013BDB2 /* Soporte-GitHub-HelloWorld-Rosaliaboal */;
+			targetProxy = 229AA5172A5C45340013BDB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229AA4FF2A5C45330013BDB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229AA5002A5C45330013BDB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		229AA5042A5C45340013BDB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229AA5052A5C45340013BDB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229AA51E2A5C45340013BDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229AA51F2A5C45340013BDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229AA5212A5C45340013BDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26FG72DPYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soporte-GitHub-HelloWorld-Rosaliaboal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosaliaboal.Soporte-GitHub-HelloWorld-Rosaliaboal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229AA5222A5C45340013BDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26FG72DPYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soporte-GitHub-HelloWorld-Rosaliaboal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosaliaboal.Soporte-GitHub-HelloWorld-Rosaliaboal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		229AA5242A5C45340013BDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26FG72DPYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosaliaboal.Soporte-GitHub-HelloWorld-RosaliaboalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soporte-GitHub-HelloWorld-Rosaliaboal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soporte-GitHub-HelloWorld-Rosaliaboal";
+			};
+			name = Debug;
+		};
+		229AA5252A5C45340013BDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26FG72DPYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosaliaboal.Soporte-GitHub-HelloWorld-RosaliaboalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soporte-GitHub-HelloWorld-Rosaliaboal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soporte-GitHub-HelloWorld-Rosaliaboal";
+			};
+			name = Release;
+		};
+		229AA5272A5C45340013BDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26FG72DPYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosaliaboal.Soporte-GitHub-HelloWorld-RosaliaboalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soporte-GitHub-HelloWorld-Rosaliaboal";
+			};
+			name = Debug;
+		};
+		229AA5282A5C45340013BDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26FG72DPYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosaliaboal.Soporte-GitHub-HelloWorld-RosaliaboalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soporte-GitHub-HelloWorld-Rosaliaboal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229AA4F12A5C45320013BDB2 /* Build configuration list for PBXProject "Soporte-GitHub-HelloWorld-Rosaliaboal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229AA51E2A5C45340013BDB2 /* Debug */,
+				229AA51F2A5C45340013BDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229AA5202A5C45340013BDB2 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-Rosaliaboal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229AA5212A5C45340013BDB2 /* Debug */,
+				229AA5222A5C45340013BDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229AA5232A5C45340013BDB2 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-RosaliaboalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229AA5242A5C45340013BDB2 /* Debug */,
+				229AA5252A5C45340013BDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229AA5262A5C45340013BDB2 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-RosaliaboalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229AA5272A5C45340013BDB2 /* Debug */,
+				229AA5282A5C45340013BDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229AA4EE2A5C45320013BDB2 /* Project object */;
+}
